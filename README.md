@@ -1,4 +1,6 @@
-# npx brucemacgary
+# NPX card
+
+A geeky way to introduce yourself in terminal!
 
 hit `npx brucemacgary` on your terminal to know more about me!
 
