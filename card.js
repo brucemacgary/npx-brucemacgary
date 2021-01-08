@@ -19,16 +19,23 @@ const questions = [
         message: "What do you want to do?",
         choices: [
             {
-                name: `Toss an ${chalk.bold("email")}?`,
+                name: `Send me an ${chalk.bold("email")}?`,
                 value: () => {
                     open("mailto:kushagraraj6323@gmail.com");
-                    console.log("\nHey! Let's talk.\n");
+                    console.log("\nThanks for contacting me! :D\n");
+                }
+            },
+            {
+                name: `Join my ${chalk.bold("discord")} server?`,
+                value: () => {
+                    open("https://discord.gg/etEquR5");
+                    console.log("\nThanks for joining my community! :D\n");
                 }
             },
             {
                 name: "Exit",
                 value: () => {
-                    console.log("Have a nice day!\n");
+                    console.log("Have a nice day! :D\n");
                 }
             }
         ]
@@ -36,12 +43,12 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.green("                     BruceMacGary"),
+    name: chalk.bold.green("                       BruceMacGary"),
     fact: chalk.hex('#ff0000')('I love playing video games!'),
     discord: chalk.hex('#ffac00')("https://discord.gg/etEquR5"),
     github: chalk.hex('#fff100')("https://github.com/BruceMacGary"),
     website: chalk.hex('#0bff00')("https://brucemacgary.github.io"),
-    npx: chalk.hex('#00f6ff')("npx bruce"),
+    npx: chalk.hex('#00f6ff')("npx brucemacgary"),
 
     labelFact: chalk.hex('#00f6ff').bold("          Fun Fact:"),
     labelDiscord: chalk.hex('#0bff00').bold("        Discord:"),
@@ -70,7 +77,7 @@ const me = boxen(
             "I like to make stuff using js, and also like to make web apps. "
         )}`,
         `${chalk.bold(
-            " Wanna talk? we can talk on discord or on mails!"
+            "Wanna talk? we can talk on discord or on mails!"
         )}`
     ].join("\n"),
     {

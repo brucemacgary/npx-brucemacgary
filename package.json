@@ -18,5 +18,8 @@
   },
   "keywords": [],
   "author": "BruceMacGary",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/clear": "^0.1.1"
+  }
 }
