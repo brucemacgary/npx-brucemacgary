@@ -4,7 +4,7 @@ hit `npx brucemacgary` on your terminal to know more about me!
 
 ## Output
 
-<img src+"https://cdn.discordapp.com/attachments/745524235153440818/797114200749113374/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/745524235153440818/797114200749113374/unknown.png">
 
 ## How to make 
 
